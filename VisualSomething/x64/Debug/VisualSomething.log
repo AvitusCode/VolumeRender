@@ -1,0 +1,22 @@
+﻿  main.cpp
+C:\Users\Blasphemous\source\repos\VisualSomething\main.cpp(110,81): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Blasphemous\source\repos\VisualSomething\main.cpp(111,85): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Blasphemous\source\repos\VisualSomething\main.cpp(122,103): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Blasphemous\source\repos\VisualSomething\main.cpp(127,78): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Blasphemous\source\repos\VisualSomething\main.cpp(128,82): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  tests_generate_functions.cpp
+C:\Users\Blasphemous\source\repos\VisualSomething\support\tests_generate_functions.cpp(23,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Blasphemous\source\repos\VisualSomething\support\tests_generate_functions.cpp(23,36): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\Blasphemous\source\repos\VisualSomething\support\tests_generate_functions.cpp(24,39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Blasphemous\source\repos\VisualSomething\support\tests_generate_functions.cpp(24,39): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\Blasphemous\source\repos\VisualSomething\support\tests_generate_functions.cpp(25,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Blasphemous\source\repos\VisualSomething\support\tests_generate_functions.cpp(25,37): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\Blasphemous\source\repos\VisualSomething\support\tests_generate_functions.cpp(61,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Blasphemous\source\repos\VisualSomething\support\tests_generate_functions.cpp(61,36): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\Blasphemous\source\repos\VisualSomething\support\tests_generate_functions.cpp(62,39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Blasphemous\source\repos\VisualSomething\support\tests_generate_functions.cpp(62,39): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\Blasphemous\source\repos\VisualSomething\support\tests_generate_functions.cpp(63,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Blasphemous\source\repos\VisualSomething\support\tests_generate_functions.cpp(63,37): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  VisualSomething.vcxproj -> C:\Users\Blasphemous\source\repos\VisualSomething\x64\Debug\VisualSomething.exe

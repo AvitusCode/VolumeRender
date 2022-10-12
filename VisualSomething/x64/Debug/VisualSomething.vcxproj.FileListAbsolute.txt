@@ -1,0 +1,2 @@
+C:\Users\Blasphemous\source\repos\VisualSomething\x64\Debug\VisualSomething.exe
+C:\Users\Blasphemous\source\repos\VisualSomething\x64\Debug\VisualSomething.pdb
