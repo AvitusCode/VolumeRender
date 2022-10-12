@@ -57,9 +57,8 @@ Mat2D<vec4> testSum(const Mat3D<Voxel>& data, const std::vector<vec4>& colors)
 		{
 			// vec4 color - будет содержать конечный цвет пикселя после суммирования
 			vec4 color = vec4 { 0.0f, 0.0f, 0.0f, 1.0f };
-			// значение для A_{0} и накопитель произведений
-			float Am = 1.0f - colors[data.At(0, i, j).iLayer].w_;
-			float accumulator = 1.0f;
+			// значение для A_{0}
+			float Am = 1.0f;
 
 			for (size_t m = 0; m < depth; m++)
 			{
@@ -74,8 +73,7 @@ Mat2D<vec4> testSum(const Mat3D<Voxel>& data, const std::vector<vec4>& colors)
 				color += (colors[indexOfLayer] * Am * ((1.0f - ONE_MINUS_ALPHA) / colors[indexOfLayer].w_));
 				
 				// получаем следующий A_{m+1}
-				accumulator = ONE_MINUS_ALPHA == 0.0f ? accumulator :  accumulator * ONE_MINUS_ALPHA;
-				Am = accumulator * (1.0f - colors[data.At((m + 1) % depth, i, j).iLayer].w_); 
+				Am = ONE_MINUS_ALPHA == 0.0f ? Am : Am * ONE_MINUS_ALPHA;
 			}
 
 			// Проверяем, что компоненты вектора не больше ед., и добавляем в результат в 2d матрицу пикселей
